@@ -4,11 +4,9 @@ const prompt = ps();
 
 function update(msg,counter){
     if(msg === "+"){
-        view(counter+1);
         return counter+1;
     }
     else if(msg === "-"){
-        view(counter-1);
         return counter-1;
     }
     else{
